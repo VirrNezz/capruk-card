@@ -28,9 +28,9 @@ export default function App() {
     tagline: 'Roblox Animator - Content Creator',
     bio: 'Jangan Lupa Subcribe Channel Youtube Aku Dan Jangan Lupa Juga Follow Tiktok Ku Agar Tidak Ketinggalan Konten-Konten Animasi Roblox Yang Kocak Dan NGUAWORR',
     avatarUrl: '/image/capruk-profile.jpeg',
-    location: 'Pacific Ocean / Subsea Base',
+    location: 'Pacific Ocean / Caprukers Base',
     status: 'online',
-    statusText: 'Exploring the Coral Reefs',
+    statusText: 'Exploring the Roblox Studio & Experience',
     badges: [
       { id: '1', label: 'Youtuber', icon: 'Sparkles', color: 'cyan' },
       { id: '2', label: 'Roblox Animator', icon: 'Gamepad2', color: 'indigo' },
