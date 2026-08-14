@@ -2,11 +2,11 @@ import { AudioTrack } from '../types';
 
 export const SINGLE_TRACK: AudioTrack = {
   id: 'ocean-waves-ambient',
-  title: 'Abyssal Calms & Ethereal Tides',
-  artist: 'Ocean Ambient Loop',
-  src: 'synth://ocean-ambient',
+  title: 'Doors Lobby Theme',
+  artist: 'Doors Roblox OST',
+  src: '/music/Doors-Theme.m4a',
   duration: 'Continuous Loop',
-  isSynth: true
+  isSynth: false
 };
 
 export const TRACKS: AudioTrack[] = [SINGLE_TRACK];
