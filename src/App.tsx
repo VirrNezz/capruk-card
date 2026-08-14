@@ -25,9 +25,9 @@ export default function App() {
   const [profile] = useState<UserProfile>({
     name: 'Capruk Si Hiu',
     username: 'capruksihiu',
-    tagline: 'Deep Sea Explorer & Digital Creator',
-    bio: 'Creating immersive gaming experiences, oceanic aesthetics & digital content. Join my community across Roblox, Discord, YouTube, and TikTok!',
-    avatarUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80',
+    tagline: 'Roblox Animator - Content Creator',
+    bio: 'Jangan Lupa Subcribe Channel Youtube Aku Dan Jangan Lupa Juga Follow Tiktok Ku Agar Tidak Ketinggalan Konten-Konten Animasi Roblox Yang Kocak Dan NGUAWORR',
+    avatarUrl: '/image/capruk-profile.jpeg',
     location: 'Pacific Ocean / Subsea Base',
     status: 'online',
     statusText: 'Exploring the Coral Reefs',
@@ -48,7 +48,7 @@ export default function App() {
     {
       id: 'roblox',
       name: 'Roblox',
-      subtitle: 'Play my custom experiences & join games',
+      subtitle: 'GamePlay & Mabar',
       url: 'https://www.roblox.com/user.aspx?username=capruksihiu',
       handle: '@capruk_si_hiu',
       badge: 'Top Experience',
@@ -58,7 +58,7 @@ export default function App() {
     {
       id: 'discord',
       name: 'Discord',
-      subtitle: 'Join the Subsea Community, chat & hangout',
+      subtitle: 'Chat & HangOut',
       url: 'https://discord.gg/capruksihiu',
       handle: 'discord.gg/capruksihiu',
       badge: 'Active Voice',
@@ -68,7 +68,7 @@ export default function App() {
     {
       id: 'youtube',
       name: 'YouTube',
-      subtitle: 'Watch weekly gameplay, guides & stream archives',
+      subtitle: 'Animasi Roblox & Live Streaming',
       url: 'https://www.youtube.com/@capruksihiu',
       handle: '@capruksihiu',
       badge: 'New Videos',
@@ -78,7 +78,7 @@ export default function App() {
     {
       id: 'tiktok',
       name: 'TikTok',
-      subtitle: 'Daily quick highlights, shorts & viral clips',
+      subtitle: 'Animasi Short NGUAWOR',
       url: 'https://www.tiktok.com/@capruksihiu',
       handle: '@capruk.si.hiu',
       badge: 'Trending',
@@ -89,7 +89,7 @@ export default function App() {
 
   // 3. Ocean Theme Configuration
   const [themeConfig] = useState<OceanThemeConfig>({
-    videoSource: 'https://assets.mixkit.co/videos/preview/mixkit-underwater-view-of-sunbeams-in-the-sea-4155-large.mp4',
+    videoSource: '/background/background.mp4',
     videoBlur: 0,
     oceanTone: 'bioluminescent',
     sharkDensity: 'medium',
