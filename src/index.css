@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+/* 
+ * -------------------------------------------------------------
+ * 🎨 FONT CONFIGURATION (EDIT DIRECTLY IN CODE)
+ * -------------------------------------------------------------
+ * To change the font of the website, modify the font-family below.
+ * You can use imported Google Fonts (e.g., 'Outfit', 'Plus Jakarta Sans',
+ * 'Space Grotesk', 'Cinzel', 'Syne', 'Montserrat') or define custom
+ * @font-face rules with local .ttf / .woff2 files.
+ */
+
+/* Optional: Example of custom local .ttf font definition
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/fonts/custom-font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+
+@layer base {
+  :root {
+    --user-font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--user-font-family);
+  }
+}
+
+@keyframes wiggle {
+  0%, 100% {
+    transform: rotate(0deg) translateY(0);
+  }
+  25% {
+    transform: rotate(-1.5deg) translateY(-2px);
+  }
+  75% {
+    transform: rotate(1.5deg) translateY(2px);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* Custom aesthetic glass scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(2, 11, 20, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(56, 189, 248, 0.25);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(56, 189, 248, 0.5);
+}

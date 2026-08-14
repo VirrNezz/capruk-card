@@ -1,0 +1,6 @@
+{
+  "name": "Ocean Portfolio & Social Hub",
+  "description": "A responsive, modern ocean-themed portfolio with iOS frosted glass glow cards, shark animations, ambient music player, social links, and custom font adapter.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
