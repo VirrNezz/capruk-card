@@ -15,7 +15,7 @@ import {
 
 import { OceanBackground } from './components/OceanBackground';
 import { MusicPlayer } from './components/MusicPlayer';
-import { ProfileHeader } from './components/ProfileHeader';
+https://discord.gg/qEJPhUDA5cimport { ProfileHeader } from './components/ProfileHeader';
 import { SocialLinks } from './components/SocialLinks';
 import { Toast } from './components/Toast';
 import { UserProfile, SocialLink, OceanThemeConfig } from './types';
@@ -49,7 +49,7 @@ export default function App() {
       id: 'roblox',
       name: 'Roblox',
       subtitle: 'GamePlay & Mabar',
-      url: 'https://www.roblox.com/user.aspx?username=capruksihiu',
+      url: 'https://www.roblox.com/users/1052945050/profile',
       handle: '@capruk_si_hiu',
       badge: 'Top Experience',
       themeColor: '#ef4444',
@@ -59,7 +59,7 @@ export default function App() {
       id: 'discord',
       name: 'Discord',
       subtitle: 'Chat & HangOut',
-      url: 'https://discord.gg/capruksihiu',
+      url: 'https://discord.gg/qEJPhUDA5c',
       handle: 'discord.gg/capruksihiu',
       badge: 'Active Voice',
       themeColor: '#6366f1',
@@ -69,7 +69,7 @@ export default function App() {
       id: 'youtube',
       name: 'YouTube',
       subtitle: 'Animasi Roblox & Live Streaming',
-      url: 'https://www.youtube.com/@capruksihiu',
+      url: 'https://youtu.be/SOMx2olS0Vc?si=dH4igzno8anB13Tv',
       handle: '@capruksihiu',
       badge: 'New Videos',
       themeColor: '#f43f5e',
