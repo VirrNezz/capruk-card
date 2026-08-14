@@ -32,14 +32,14 @@ export default function App() {
     status: 'online',
     statusText: 'Exploring the Coral Reefs',
     badges: [
-      { id: '1', label: 'Deep Sea Explorer', icon: 'Sparkles', color: 'cyan' },
-      { id: '2', label: 'Roblox Dev', icon: 'Gamepad2', color: 'indigo' },
+      { id: '1', label: 'Youtuber', icon: 'Sparkles', color: 'cyan' },
+      { id: '2', label: 'Roblox Animator', icon: 'Gamepad2', color: 'indigo' },
       { id: '3', label: 'Content Creator', icon: 'Tv', color: 'rose' }
     ],
     stats: [
-      { label: 'Community', value: '45K+' },
-      { label: 'Experiences', value: '1.2M Plays' },
-      { label: 'Deep Dives', value: '98%' }
+      { label: 'Subscribe On Youtube', value: '186K+' },
+      { label: 'Videos On Youtube', value: '134' },
+      { label: 'Video Start', value: '2022' }
     ]
   });
 
@@ -50,7 +50,7 @@ export default function App() {
       name: 'Roblox',
       subtitle: 'GamePlay & Mabar',
       url: 'https://www.roblox.com/users/1052945050/profile',
-      handle: '@capruk_si_hiu',
+      handle: '@capruksihiu',
       badge: 'Top Experience',
       themeColor: '#ef4444',
       iconName: 'roblox'
@@ -60,7 +60,7 @@ export default function App() {
       name: 'Discord',
       subtitle: 'Chat & HangOut',
       url: 'https://discord.gg/qEJPhUDA5c',
-      handle: 'discord.gg/capruksihiu',
+      handle: 'Caprukers HangOut',
       badge: 'Active Voice',
       themeColor: '#6366f1',
       iconName: 'discord'
@@ -80,7 +80,7 @@ export default function App() {
       name: 'TikTok',
       subtitle: 'Animasi Short NGUAWOR',
       url: 'https://www.tiktok.com/@capruksihiu',
-      handle: '@capruk.si.hiu',
+      handle: '@capruksihiu',
       badge: 'Trending',
       themeColor: '#06b6d4',
       iconName: 'tiktok'
@@ -155,7 +155,7 @@ export default function App() {
               }`}
             >
               <Anchor className="w-3.5 h-3.5" />
-              Abyss Stats
+              Career Stats
             </button>
           </div>
 
@@ -206,13 +206,13 @@ export default function App() {
                 <div className="p-4 rounded-2xl bg-white/5 border border-white/10 space-y-2 text-xs text-white/80 leading-relaxed">
                   <div className="flex items-center gap-2 text-cyan-300 font-semibold">
                     <Compass className="w-4 h-4" />
-                    <span>Deep Sea Station Lore</span>
+                    <span>Caprukers Community Lore</span>
                   </div>
                   <p>
                     Broadcasting live from sub-aquatic coordinates. Connecting gamers, creators, and oceanic enthusiasts through Roblox development, Discord hangout sessions, and visual streams.
                   </p>
                   <div className="pt-2 flex items-center justify-between text-[11px] text-cyan-200/70 border-t border-white/10">
-                    <span>Base: Mariana Trench TrenchLab</span>
+                    <span>Base: Caprukers Community</span>
                     <span className="flex items-center gap-1">
                       <Activity className="w-3.5 h-3.5 text-emerald-400" />
                       Radar Active

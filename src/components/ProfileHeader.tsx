@@ -81,15 +81,15 @@ export const ProfileHeader: React.FC<ProfileHeaderProps> = ({
       <div className="flex flex-wrap items-center justify-center gap-1.5 pt-1">
         <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-[11px] font-medium bg-cyan-500/15 text-cyan-200 border border-cyan-400/30 backdrop-blur-md shadow-[0_0_10px_rgba(6,182,212,0.15)]">
           <Sparkles className="w-3 h-3 text-cyan-300" />
-          Deep Sea Explorer
+          Youtuber
         </span>
         <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-[11px] font-medium bg-indigo-500/15 text-indigo-200 border border-indigo-400/30 backdrop-blur-md">
           <Gamepad2 className="w-3 h-3 text-indigo-300" />
-          Roblox Creator
+          Roblox Animator
         </span>
         <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-[11px] font-medium bg-rose-500/15 text-rose-200 border border-rose-400/30 backdrop-blur-md">
           <Tv className="w-3 h-3 text-rose-300" />
-          Content Producer
+          Content Creator
         </span>
       </div>
     </div>
