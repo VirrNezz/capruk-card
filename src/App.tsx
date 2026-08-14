@@ -15,7 +15,7 @@ import {
 
 import { OceanBackground } from './components/OceanBackground';
 import { MusicPlayer } from './components/MusicPlayer';
-https://discord.gg/qEJPhUDA5cimport { ProfileHeader } from './components/ProfileHeader';
+import { ProfileHeader } from './components/ProfileHeader';
 import { SocialLinks } from './components/SocialLinks';
 import { Toast } from './components/Toast';
 import { UserProfile, SocialLink, OceanThemeConfig } from './types';
