@@ -53,7 +53,7 @@ export default function App() {
       handle: '@capruksihiu',
       badge: 'Top Experience',
       themeColor: '#ef4444',
-      iconName: 'saweria'
+      iconName: 'roblox'
     },
     {
       id: 'discord',
