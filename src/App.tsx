@@ -89,7 +89,7 @@ export default function App() {
       id: 'saweria',
       name: 'Saweria',
       subtitle: 'Dukung & Donasi Kreator',
-      url: 'https://saweria.co/capruksihiu', // Ganti dengan link Saweria kamu yang sebenarnya
+      url: 'https://saweria.co/CapruKSiHiu', // Ganti dengan link Saweria kamu yang sebenarnya
       handle: 'saweria.co/capruksihiu',
       badge: 'Support',
       themeColor: '#f97316', // Warna oranye khas Saweria
