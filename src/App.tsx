@@ -43,7 +43,7 @@ export default function App() {
     ]
   });
 
-  // 2. Initial Social Links (Roblox, Discord, YouTube, TikTok)
+  // 2. Initial Social Links (Roblox, Discord, YouTube, TikTok, Saweria)
   const [socialLinks] = useState<SocialLink[]>([
     {
       id: 'roblox',
@@ -84,6 +84,16 @@ export default function App() {
       badge: 'Trending',
       themeColor: '#06b6d4',
       iconName: 'tiktok'
+    },
+    {
+      id: 'saweria',
+      name: 'Saweria',
+      subtitle: 'Dukung & Donasi Kreator',
+      url: 'https://saweria.co/capruksihiu', // Ganti dengan link Saweria kamu yang sebenarnya
+      handle: 'saweria.co/capruksihiu',
+      badge: 'Support',
+      themeColor: '#f97316', // Warna oranye khas Saweria
+      iconName: 'saweria' // Pastikan komponen SocialLinks mendukung icon ini atau akan otomatis fallback
     }
   ]);
 
@@ -170,7 +180,7 @@ export default function App() {
                 transition={{ duration: 0.2 }}
                 className="space-y-4"
               >
-                {/* 4 Special Social Cards: Roblox, Discord, YouTube, TikTok */}
+                {/* Social Cards including Saweria */}
                 <SocialLinks
                   links={socialLinks}
                   onCopySuccess={showToast}
